@@ -1,1 +1,24 @@
 # Text2Drawing-Service
+
+<p align='center'>
+  Incheon National University - Computer Science Capstone Design(Graduation product)
+</p>
+<p align='center'>
+  <b>You & AI</b>
+</p>
+
+We make an application that generates picture through text. In addition, not only one sentence but also several sentences are summarized to create a picture that fits the atmosphere of the text. Finally, the created picture is converted into the style of the artist you want, and recommends according to the user
+
+<img src='https://github.com/winston1214/Text2Drawing-Service/blob/master/picture/flowchart.png?raw=true'></img>
+
+## Member(Team : You & AI)
+
+
+<table>
+  <tr>
+      <td align="center"><a href="https://github.com/winston1214"><img src="https://avatars.githubusercontent.com/u/47775179?v=4" width="100" height="100"><br /><sub><b>김영민</b></sub></td>
+      <td align="center"><a href="https://github.com/Caution-Sun"><img src="https://avatars.githubusercontent.com/u/60997821?v=4" width="100" height="100"><br /><sub><b>유의선</b></sub></td>
+      <td align="center"><a href="https://github.com/wootak96"><img src="https://avatars.githubusercontent.com/u/68039225?v=4" width="100" height="100"><br /><sub><b>신우탁</b></sub></td>
+      <td align="center"><a href="https://github.com/kkyh1125"><img src="https://avatars.githubusercontent.com/u/90811540?v=4" width="100" height="100"><br /><sub><b>김영훈</b></sub></td> 
+     </tr>
+</table>

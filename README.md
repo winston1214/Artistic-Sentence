@@ -7,10 +7,11 @@
   <b>You & AI</b>
 </p>
 
-We make an application that generates picture through text. In addition, not only one sentence but also several sentences are summarized to create a picture that fits the atmosphere of the text. Finally, the created picture is converted into the style of the artist you want, and recommends according to the user
+<p align='center'> We make an application that generates picture through text. In addition, not only one sentence but also several sentences are summarized to create a picture that fits the atmosphere of the text. Finally, the created picture is converted into the style of the artist you want, and recommends according to the user</p>
 
-<img src='https://github.com/winston1214/Text2Drawing-Service/blob/master/picture/flowchart.png?raw=true'></img>
-
+<p align='center'>
+  <img src='https://github.com/winston1214/Text2Drawing-Service/blob/master/picture/flowchart.png?raw=true'></img>
+</p>
 ## Member(Team : You & AI)
 
 

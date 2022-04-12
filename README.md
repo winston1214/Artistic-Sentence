@@ -48,6 +48,9 @@ curl -L -o checkpoints/vqgan_imagenet_f16_16384.yaml -C - 'https://heibox.uni-he
 curl -L -o checkpoints/vqgan_imagenet_f16_16384.ckpt -C - 'https://heibox.uni-heidelberg.de/d/a7530b09fed84f80a887/files/?p=%2Fckpts%2Flast.ckpt&dl=1' #ImageNet 16384
 ```
 
+- if you use other model, you check ```pretrained_model.sh```
+
+
 3. Inference
 ```
 python generate.py -p "A painting of an apple in a fruit bowl"

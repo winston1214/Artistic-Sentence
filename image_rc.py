@@ -18,7 +18,6 @@ def feature_extractor(path,model):
 ## Collect Data
 def image_rc(data):
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
-    print(device)
     model = timm.create_model('efficientnet_b0',pretrained=True).to(device)
     feature_list = np.array([])
     for i in tqdm(data['img']):
@@ -48,4 +47,5 @@ def inference(path,model,df,feature_list): # 여기서 df 원본 df
     return top5_text,top5_style,top5_score
 if __name__ == '__main__':
     feature_list,df = image_rc(sample)
+    model = timm.create_model('efficientnet_b0',pretrained=True).to(device)
     text,style,score = inference('random/'+os.listdir('random')[0],model,sample,feature_list)

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from sklearn.preprocessing import MinMaxScaler
 from PIL import Image
 import numpy as np
@@ -5,6 +6,9 @@ import pandas as pd
 from tqdm import tqdm
 import timm
 import torch
+from sklearn.metrics.pairwise import cosine_similarity
+import os
+
 def feature_extractor(path,model):
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
     img = Image.open(path)
@@ -28,6 +32,7 @@ def image_rc(data):
     df = pd.DataFrame(cosine_similarity(feature_list),columns = data['text'].values.tolist(),index = data['text'].values.tolist())
     return feature_list,df
 
+# +
 def inference(path,model,df,feature_list): # 여기서 df 원본 df
     img = feature_extractor(path,model).view(-1)
     img = img.cpu().detach().numpy()
@@ -41,11 +46,19 @@ def inference(path,model,df,feature_list): # 여기서 df 원본 df
     df['score'] = rating.reshape(-1) * 0.5 + df['cos']*0.5
     
     df = df.sort_values('score',ascending=False).reset_index(drop=True)
-    top5_text = df.iloc[:5]['text'].values    
-    top5_style = df.iloc[:5]['style'].values # 평점 + 이미지 유사도
-    top5_score = df.iloc[:5]['score']
-    return top5_text,top5_style,top5_score
+    top5_text = df.iloc[:4]['text'].values    
+    top5_style = df.iloc[:5]['style'] # 평점 + 이미지 유사도
+    dic = {0:'picasso',1:'pop art',2:'monet'}
+    top5_style = top5_style.map(dic)
+    recommend_style = top5_style.value_counts().index[0]
+    return top5_text,recommend_style
+
 if __name__ == '__main__':
-    feature_list,df = image_rc(sample)
+    device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+    feature_list = np.load('feature_list.npy')
+#     feature_list,df = image_rc(sample)
+    sample = pd.read_csv('final_recommend.csv')
     model = timm.create_model('efficientnet_b0',pretrained=True).to(device)
-    text,style,score = inference('random/'+os.listdir('random')[0],model,sample,feature_list)
+    text,style = inference('output.png',model,sample,feature_list)
+    print(text)
+    print(style)

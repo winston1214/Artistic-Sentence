@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EndFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="다음의 조합으로 그림이 만들어집니다"
+        android:textAllCaps="false"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="문장 "
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textInputText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="10"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="50dp"
+            android:padding="10dp"
+            android:background="@drawable/btn_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="그림체"
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textSelectedStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="퀄리티"
+            android:textColor="#FFC107"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekBarQuality"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:max="500"
+            android:min="100"
+            android:progress="50" />
+
+        <TextView
+            android:id="@+id/textViewQuality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="100"
+            android:textColor="#FFC107"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</LinearLayout>

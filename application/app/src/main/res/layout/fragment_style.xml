@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StyleFragment">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="원하는 그림체를 선택해주세요"
+        android:textAllCaps="false"
+        android:textColor="#FFC107"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnFindStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="내게 맞는 그림체 찾기"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:visibility="invisible" />
+
+        <ImageButton
+            android:id="@+id/buttonInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@android:drawable/ic_dialog_info" />
+    </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="20dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

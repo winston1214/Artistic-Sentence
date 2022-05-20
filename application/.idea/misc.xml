@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.38229166666666664" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/activity_result.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_end.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_start.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_style.xml" value="0.30666666666666664" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_text.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/result.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/sd.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidStudy/Capston_Sample_1/app/src/main/res/layout/stylebutton.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/font/amaranth_bold.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/font/andika_new_basic_bold.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_google_signup.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_info.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_recommend.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_result.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/activity_stylefind.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/fragment_end.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/fragment_start.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/fragment_style.xml" value="0.23796296296296296" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/fragment_text.xml" value="0.264" />
+        <entry key="..\:/Users/YoungHoon/AndroidStudioProjects/Text2Draw/app/src/main/res/layout/stylebutton.xml" value="0.25364583333333335" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/drawable/btn_background.xml" value="0.248" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/drawable/splash_base.xml" value="0.248" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/activity_info.xml" value="0.26358695652173914" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/activity_main.xml" value="0.213768115942029" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/activity_result.xml" value="0.26358695652173914" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/activity_stylefind.xml" value="0.26721014492753625" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_end.xml" value="0.26358695652173914" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_start.xml" value="0.26721014492753625" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_style.xml" value="0.26358695652173914" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_styleinfo1.xml" value="0.1" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_styleinfo2.xml" value="0.26721014492753625" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_styleinfo3.xml" value="0.26721014492753625" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/fragment_text.xml" value="0.26721014492753625" />
+        <entry key="..\:/androidStudy/Capston_Sample_1/app/src/main/res/layout/stylebutton.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/drawable/splash_base.xml" value="0.248" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/font/font.xml" value="0.3203125" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_google_signup.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_info.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_main.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_result.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_signup.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/activity_stylefind.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/dialog_progress.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/fragment_end.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/fragment_start.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/fragment_style.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw/app/src/main/res/layout/fragment_text.xml" value="0.26721014492753625" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/drawable/btn_background.xml" value="0.242" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_google_signup.xml" value="0.25679347826086957" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_main.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_recommend.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_result.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_signup.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/activity_stylefind.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/fragment_end.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/fragment_start.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/fragment_style.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/fragment_text.xml" value="0.213768115942029" />
+        <entry key="..\:/github/Text2Draw_kkyh1125/Text2Draw/app/src/main/res/layout/stylebutton.xml" value="0.25679347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

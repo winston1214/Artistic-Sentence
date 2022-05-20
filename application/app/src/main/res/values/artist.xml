@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resourcesArtist">
+        <item>없음</item>
+        <item>카미유 피사로</item>
+        <item>카라바조</item>
+        <item>피카소</item>
+        <item>모네</item>
+        <item>에드가 드가</item>
+    </string-array>
+</resources>

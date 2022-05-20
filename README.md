@@ -30,12 +30,12 @@
 - OS : Ubuntu 20.04-server
 - GPU : A4000 x 2
 
-## How to do?
+## How to do (AI)?
 
 1. Enviornment setting
 ```
 git clone https://https://github.com/winston1214/Text2Drawing-Service
-cd Text2Drawing-Service
+cd Artistic-Sentence/AI
 git clone https://github.com/openai/CLIP # CLIP
 git clone https://github.com/CompVis/taming-transformers # VQGAN
 ```

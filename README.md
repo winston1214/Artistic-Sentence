@@ -63,7 +63,12 @@ curl -L -o checkpoints/vqgan_imagenet_f16_16384.ckpt -C - 'https://heibox.uni-he
 python generate.py -p "A painting of an apple in a fruit bowl"
 ```
 
+
 ## Demo
+
+<p align='center'>
+  <img src='https://github.com/winston1214/Artistic-Sentence/blob/master/picture/UI.PNG?raw=true'></img>
+</p>
 
 https://user-images.githubusercontent.com/47775179/169488748-b0dee451-8fc7-46f7-8fd8-253fa2e56bf9.mp4
 

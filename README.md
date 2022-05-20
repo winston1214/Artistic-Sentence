@@ -74,11 +74,17 @@ https://user-images.githubusercontent.com/47775179/169488748-b0dee451-8fc7-46f7-
 
 ## Etc Matarials
 
-- **Poster** : https://github.com/winston1214/Artistic-Sentence/blob/master/picture/Poster.jpg
+- **Poster** 
+  -  https://github.com/winston1214/Artistic-Sentence/blob/master/picture/Poster.jpg
+  - http://www.ideaboom.net/project/project/view?seq=1101
 - **Full Presentation** : https://www.youtube.com/watch?v=TBCMjT09w0Y
 - **Presentation Slide** : https://www.slideshare.net/ssuserd555d6/artistic-sentence
 
 ## Reference
 ```
 https://github.com/nerdyrodent/VQGAN-CLIP
+
+Radford, Alec, et al. "Learning transferable visual models from natural language supervision." International Conference on Machine Learning. PMLR, 2021.
+
+Esser, Patrick, Robin Rombach, and Bjorn Ommer. "Taming transformers for high-resolution image synthesis." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021.
 ```

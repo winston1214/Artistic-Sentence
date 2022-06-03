@@ -10,6 +10,17 @@ DB : Firebase
 
 ***
 
+## 참고 문헌
+* [Android Developers][android_link]
+
+[android_link]: https://developer.android.com/docs/
+
+* [Firebase Guide][firebase_link]
+
+[firebase_link]: https://firebase.google.com/docs/android/setup?authuser=0
+
+***
+
 ## 화면 구성
 
 기본적으로 pager을 통해 각 화면을 슬라이드로 전환할 수 있도록 만들었다.

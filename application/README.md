@@ -4,9 +4,9 @@
 ***
 
 ## 개발 환경
-IDE : Android Studio
+Client : Android Studio, Java
 
-Language : Java
+DB : Firebase
 
 ***
 

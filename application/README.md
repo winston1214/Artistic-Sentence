@@ -47,3 +47,7 @@ Realtime Database 항목에서 Database 생성 -> 규칙 수정
 Android Studio -> Tools -> Firebase -> Realtime Database -> get started with Realtime Database 클릭   
 Add the Realtime Database SDK to your app -> build.gradle에 자동으로 필요한 의존성 추가   
 <img src="https://user-images.githubusercontent.com/90811540/158551078-f0599b46-c020-461e-a6bc-fb79059062df.png"></img>
+
+### GoogleSignInOptions 객체 사용 시(ServerClientId)
+한 번 빌드 후 -> Project -> app -> build -> generated -> res -> google-services -> debug -> values -> values.xml   
+default_web_client_id 값을 strings.xml 에 google_default_web_client_id 으로 등록
